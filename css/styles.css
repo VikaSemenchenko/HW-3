@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+
+}
+.rel-container {
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+    /* display: flex; */
+}
+.box {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    
+
+}
+.box:nth-child(1) {
+    background-color: rgb(252, 148, 148);
+    
+}
+.box:nth-child(2) {
+    background-color: rgb(156, 188, 255);
+    left: 150px;
+    top: 150px;
+    z-index: 1;
+}
+.box:nth-child(3) {
+    background-color: rgb(203, 255, 193);
+   left: 300px;
+  top: 300px;
+}
+.relative {
+    position: relative;
+    top: 0;
+    left: 0;
+}
